@@ -1,0 +1,145 @@
+anio,trimestre,categoria,canal,ventas
+2025,4,Arroces,Delivery propio,9874.0
+2025,4,Arroces,Para llevar,10399.0
+2025,4,Arroces,Salón,29872.0
+2025,4,Bebidas,Delivery propio,2862.0
+2025,4,Bebidas,Para llevar,2496.0
+2025,4,Bebidas,Salón,9750.0
+2025,4,Ceviches,Delivery propio,25570.0
+2025,4,Ceviches,Para llevar,25324.0
+2025,4,Ceviches,Salón,75676.0
+2025,4,Entradas,Delivery propio,5228.0
+2025,4,Entradas,Para llevar,5292.0
+2025,4,Entradas,Salón,16786.0
+2025,4,Frituras,Delivery propio,5446.0
+2025,4,Frituras,Para llevar,6808.0
+2025,4,Frituras,Salón,18417.0
+2025,4,Leches,Delivery propio,3196.0
+2025,4,Leches,Para llevar,4042.0
+2025,4,Leches,Salón,11698.0
+2025,4,Platos Calientes,Delivery propio,5099.0
+2025,4,Platos Calientes,Para llevar,6017.0
+2025,4,Platos Calientes,Salón,20894.0
+2025,4,Postres,Delivery propio,678.0
+2025,4,Postres,Para llevar,742.0
+2025,4,Postres,Salón,2132.0
+2025,4,Sopas,Delivery propio,3326.0
+2025,4,Sopas,Para llevar,3866.0
+2025,4,Sopas,Salón,12740.0
+2026,1,Arroces,Delivery propio,10198.0
+2026,1,Arroces,Para llevar,10384.0
+2026,1,Arroces,PedidosYa,7432.0
+2026,1,Arroces,Rappi,5131.78
+2026,1,Arroces,Salón,37190.0
+2026,1,Bebidas,Delivery propio,3350.0
+2026,1,Bebidas,Para llevar,3076.0
+2026,1,Bebidas,Salón,11181.0
+2026,1,Ceviches,Delivery propio,27096.0
+2026,1,Ceviches,Para llevar,28552.0
+2026,1,Ceviches,PedidosYa,16850.04
+2026,1,Ceviches,Rappi,13910.1
+2026,1,Ceviches,Salón,95890.0
+2026,1,Entradas,Delivery propio,6394.0
+2026,1,Entradas,Para llevar,6180.0
+2026,1,Entradas,Salón,22720.0
+2026,1,Frituras,Delivery propio,5965.0
+2026,1,Frituras,Para llevar,6033.0
+2026,1,Frituras,PedidosYa,3793.31
+2026,1,Frituras,Rappi,2996.58
+2026,1,Frituras,Salón,22476.0
+2026,1,Leches,Delivery propio,4048.0
+2026,1,Leches,Para llevar,4126.0
+2026,1,Leches,PedidosYa,2271.1
+2026,1,Leches,Rappi,1883.79
+2026,1,Leches,Salón,14710.0
+2026,1,Platos Calientes,Delivery propio,8144.0
+2026,1,Platos Calientes,Para llevar,5907.0
+2026,1,Platos Calientes,PedidosYa,5249.36
+2026,1,Platos Calientes,Rappi,3691.19
+2026,1,Platos Calientes,Salón,26339.0
+2026,1,Postres,Delivery propio,838.0
+2026,1,Postres,Para llevar,798.0
+2026,1,Postres,Salón,3094.0
+2026,1,Sopas,Delivery propio,5165.0
+2026,1,Sopas,Para llevar,5429.0
+2026,1,Sopas,PedidosYa,2978.3
+2026,1,Sopas,Rappi,1921.73
+2026,1,Sopas,Salón,16627.0
+2026,2,Arroces,Delivery propio,10008.0
+2026,2,Arroces,Para llevar,10108.0
+2026,2,Arroces,PedidosYa,6483.97
+2026,2,Arroces,Rappi,4745.0199999999995
+2026,2,Arroces,Salón,33219.0
+2026,2,Bebidas,Delivery propio,3203.0
+2026,2,Bebidas,Para llevar,3073.0
+2026,2,Bebidas,Salón,9885.0
+2026,2,Ceviches,Delivery propio,25274.0
+2026,2,Ceviches,Para llevar,25946.0
+2026,2,Ceviches,PedidosYa,19765.36
+2026,2,Ceviches,Rappi,12281.04
+2026,2,Ceviches,Salón,90014.0
+2026,2,Entradas,Delivery propio,6168.0
+2026,2,Entradas,Para llevar,5612.0
+2026,2,Entradas,Salón,20596.0
+2026,2,Frituras,Delivery propio,6517.0
+2026,2,Frituras,Para llevar,6351.0
+2026,2,Frituras,PedidosYa,4217.7699999999995
+2026,2,Frituras,Rappi,2473.39
+2026,2,Frituras,Salón,19373.0
+2026,2,Leches,Delivery propio,3770.0
+2026,2,Leches,Para llevar,3788.0
+2026,2,Leches,PedidosYa,2689.44
+2026,2,Leches,Rappi,2099.38
+2026,2,Leches,Salón,13532.0
+2026,2,Platos Calientes,Delivery propio,6029.0
+2026,2,Platos Calientes,Para llevar,7605.0
+2026,2,Platos Calientes,PedidosYa,5255.76
+2026,2,Platos Calientes,Rappi,2926.8
+2026,2,Platos Calientes,Salón,22807.0
+2026,2,Postres,Delivery propio,710.0
+2026,2,Postres,Para llevar,570.0
+2026,2,Postres,Salón,2708.0
+2026,2,Sopas,Delivery propio,3052.0
+2026,2,Sopas,Para llevar,4647.0
+2026,2,Sopas,PedidosYa,3468.74
+2026,2,Sopas,Rappi,2266.9900000000002
+2026,2,Sopas,Salón,15378.0
+2026,3,Arroces,Delivery propio,10802.0
+2026,3,Arroces,Para llevar,11156.0
+2026,3,Arroces,PedidosYa,6182.07
+2026,3,Arroces,Rappi,5030.33
+2026,3,Arroces,Salón,35473.0
+2026,3,Bebidas,Delivery propio,3015.0
+2026,3,Bebidas,Para llevar,3615.0
+2026,3,Bebidas,Salón,12312.0
+2026,3,Ceviches,Delivery propio,28818.0
+2026,3,Ceviches,Para llevar,31486.0
+2026,3,Ceviches,PedidosYa,19763.4
+2026,3,Ceviches,Rappi,14582.43
+2026,3,Ceviches,Salón,102994.0
+2026,3,Entradas,Delivery propio,7316.0
+2026,3,Entradas,Para llevar,8236.0
+2026,3,Entradas,Salón,23094.0
+2026,3,Frituras,Delivery propio,7458.0
+2026,3,Frituras,Para llevar,8279.0
+2026,3,Frituras,PedidosYa,3793.85
+2026,3,Frituras,Rappi,2425.67
+2026,3,Frituras,Salón,20112.0
+2026,3,Leches,Delivery propio,4378.0
+2026,3,Leches,Para llevar,4358.0
+2026,3,Leches,PedidosYa,2080.08
+2026,3,Leches,Rappi,1840.92
+2026,3,Leches,Salón,15414.0
+2026,3,Platos Calientes,Delivery propio,7225.0
+2026,3,Platos Calientes,Para llevar,8341.0
+2026,3,Platos Calientes,PedidosYa,5353.92
+2026,3,Platos Calientes,Rappi,3242.7
+2026,3,Platos Calientes,Salón,26404.0
+2026,3,Postres,Delivery propio,726.0
+2026,3,Postres,Para llevar,776.0
+2026,3,Postres,Salón,2742.0
+2026,3,Sopas,Delivery propio,5343.0
+2026,3,Sopas,Para llevar,6140.0
+2026,3,Sopas,PedidosYa,2543.02
+2026,3,Sopas,Rappi,2609.65
+2026,3,Sopas,Salón,17567.0

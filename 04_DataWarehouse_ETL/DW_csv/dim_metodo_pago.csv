@@ -1,0 +1,6 @@
+sk_pago,metodo_pago,tipo_pago
+1,Efectivo,Físico
+2,Yape,Billetera digital
+3,Plin,Billetera digital
+4,Tarjeta,Tarjeta
+5,Pasarela de la plataforma,Plataforma

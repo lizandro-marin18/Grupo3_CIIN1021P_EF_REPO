@@ -1,0 +1,27 @@
+sk_empleado,id_empleado_nk,nombre_completo,cargo
+1,0,Sin vendedor (plataforma externa),N/A
+2,1,Mariana Delap,Ayudante
+3,2,Dorey Costain,Cajero
+4,3,Evangeline Bertolin,Cajero
+5,4,Karina Hove,Ayudante
+6,5,Lorne Wreight,Mozo
+7,6,Felix Siebart,Ayudante
+8,7,Rosina Shephard,Mozo
+9,8,Vasilis Chetham,Cocinero
+10,9,Masha Carr,Ayudante
+11,10,Billie Buckberry,Cocinero
+12,11,Amory Fieldstone,Ayudante
+13,12,Malvin Lampbrecht,Administrador
+14,13,Washington Dolbey,Cocinero
+15,14,Jamaal Losemann,Administrador
+16,15,Gerti Whatson,Ayudante
+17,16,Rosa Quispe,Vendedor
+18,17,Luis Cabrera,Vendedor
+19,18,Milagros Tello,Vendedor
+20,19,Jhon Chávez,Vendedor
+21,20,Karen Bardales,Mozo
+22,21,Pedro Sánchez,Delivery
+23,22,Diana Huamán,Cajero
+24,23,Óscar Mendoza,Cocinero
+25,24,Lucía Terrones,Vendedor
+26,25,Iván Rojas,Delivery

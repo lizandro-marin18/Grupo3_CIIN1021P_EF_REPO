@@ -1,0 +1,6 @@
+sk_canal,canal,tipo_canal,origen_datos
+1,Salón,Presencial,SQL Server
+2,Para llevar,Presencial,SQL Server
+3,Delivery propio,Delivery,SQL Server
+4,PedidosYa,Delivery (app),CSV externo
+5,Rappi,Delivery (app),CSV externo

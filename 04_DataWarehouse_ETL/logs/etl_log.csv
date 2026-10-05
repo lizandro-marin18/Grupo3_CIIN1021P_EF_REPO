@@ -1,0 +1,21 @@
+paso,descripcion,filas_in,filas_out,filas_afectadas,marca_tiempo
+E01,"Extracción CSV exportados de SQL Server (Cliente, Empleado, Plato, Pedido, Detalle)",0,53015,0,2026-10-01 15:09:02
+E02,Extracción CSV externo delivery apps (PedidosYa/Rappi),0,5460,0,2026-10-01 15:09:02
+E03,Extracción tabla de referencia de feriados,0,20,0,2026-10-01 15:09:02
+T01,Eliminar duplicados por order_ref en CSV externo,5460,5400,60,2026-10-01 15:09:02
+T02,"Normalizar nombre de plato (tildes, mayúsculas, 'cebiche'->'ceviche') contra catálogo SQL",5400,5400,2755,2026-10-01 15:09:02
+T03,Imputar precio_bruto nulo = precio_base x cantidad x 1.10,5400,5400,12,2026-10-01 15:09:02
+T04,Tipificar fechas (ISO) en Pedido y CSV externo,17382,17382,0,2026-10-01 15:09:02
+T05,Seudonimizar DNI (SHA-256+sal) y excluir email/teléfono/nombre/salario del DW,5501,5501,5468,2026-10-01 15:09:02
+T06,Derivar turno (Almuerzo/Tarde/Noche) desde hora_pedido,11982,11982,11982,2026-10-01 15:09:02
+T07,"Validar integridad referencial pedido->cliente/empleado, detalle->plato",47449,47449,0,2026-10-01 15:09:02
+T08,Conciliar SUM(detalle) = monto_total del pedido (discrepancias),11982,11982,0,2026-10-01 15:09:02
+L01,Construir Dim_Fecha (2025-10-01 a 2026-12-31) con feriados,20,457,20,2026-10-01 15:09:02
+L02,"Construir Dim_Cliente (SCD1, seudonimizada, 2 miembros especiales)",5501,5502,2,2026-10-01 15:09:02
+L03,"Construir Dim_Plato (categoría, margen, rango de precio)",40,40,40,2026-10-01 15:09:02
+L04,Construir Dim_Empleado (sin DNI ni salario: minimización de datos),25,26,1,2026-10-01 15:09:02
+L05,"Construir Dim_MetodoPago, Dim_Canal, Dim_Turno",0,14,0,2026-10-01 15:09:02
+L06,Construir Fact_Ventas (grano = línea de pedido) integrando SQL Server + CSV externo,40867,40867,5400,2026-10-01 15:09:02
+L07,Verificar cero llaves sustitutas nulas en Fact_Ventas,40867,40867,0,2026-10-01 15:09:03
+L08,"Cargar tablas del DW a CSV y SQLite (dim_fecha, dim_cliente, dim_plato, dim_empleado, dim_metodo_pago, dim_canal, dim_turno, fact_ventas)",40867,46906,8,2026-10-01 15:09:03
+FIN,ETL finalizado en 1.52 s,0,0,0,2026-10-01 15:09:03

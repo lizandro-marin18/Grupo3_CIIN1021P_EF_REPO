@@ -1,0 +1,20 @@
+2026-10-01 15:09:02 [E01] Extracción CSV exportados de SQL Server (Cliente, Empleado, Plato, Pedido, Detalle) | in=0 out=53015 afectadas=0
+2026-10-01 15:09:02 [E02] Extracción CSV externo delivery apps (PedidosYa/Rappi) | in=0 out=5460 afectadas=0
+2026-10-01 15:09:02 [E03] Extracción tabla de referencia de feriados | in=0 out=20 afectadas=0
+2026-10-01 15:09:02 [T01] Eliminar duplicados por order_ref en CSV externo | in=5460 out=5400 afectadas=60
+2026-10-01 15:09:02 [T02] Normalizar nombre de plato (tildes, mayúsculas, 'cebiche'->'ceviche') contra catálogo SQL | in=5400 out=5400 afectadas=2755
+2026-10-01 15:09:02 [T03] Imputar precio_bruto nulo = precio_base x cantidad x 1.10 | in=5400 out=5400 afectadas=12
+2026-10-01 15:09:02 [T04] Tipificar fechas (ISO) en Pedido y CSV externo | in=17382 out=17382 afectadas=0
+2026-10-01 15:09:02 [T05] Seudonimizar DNI (SHA-256+sal) y excluir email/teléfono/nombre/salario del DW | in=5501 out=5501 afectadas=5468
+2026-10-01 15:09:02 [T06] Derivar turno (Almuerzo/Tarde/Noche) desde hora_pedido | in=11982 out=11982 afectadas=11982
+2026-10-01 15:09:02 [T07] Validar integridad referencial pedido->cliente/empleado, detalle->plato | in=47449 out=47449 afectadas=0
+2026-10-01 15:09:02 [T08] Conciliar SUM(detalle) = monto_total del pedido (discrepancias) | in=11982 out=11982 afectadas=0
+2026-10-01 15:09:02 [L01] Construir Dim_Fecha (2025-10-01 a 2026-12-31) con feriados | in=20 out=457 afectadas=20
+2026-10-01 15:09:02 [L02] Construir Dim_Cliente (SCD1, seudonimizada, 2 miembros especiales) | in=5501 out=5502 afectadas=2
+2026-10-01 15:09:02 [L03] Construir Dim_Plato (categoría, margen, rango de precio) | in=40 out=40 afectadas=40
+2026-10-01 15:09:02 [L04] Construir Dim_Empleado (sin DNI ni salario: minimización de datos) | in=25 out=26 afectadas=1
+2026-10-01 15:09:02 [L05] Construir Dim_MetodoPago, Dim_Canal, Dim_Turno | in=0 out=14 afectadas=0
+2026-10-01 15:09:02 [L06] Construir Fact_Ventas (grano = línea de pedido) integrando SQL Server + CSV externo | in=40867 out=40867 afectadas=5400
+2026-10-01 15:09:03 [L07] Verificar cero llaves sustitutas nulas en Fact_Ventas | in=40867 out=40867 afectadas=0
+2026-10-01 15:09:03 [L08] Cargar tablas del DW a CSV y SQLite (dim_fecha, dim_cliente, dim_plato, dim_empleado, dim_metodo_pago, dim_canal, dim_turno, fact_ventas) | in=40867 out=46906 afectadas=8
+2026-10-01 15:09:03 [FIN] ETL finalizado en 1.52 s | in=0 out=0 afectadas=0
