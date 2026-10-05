@@ -1,0 +1,10 @@
+﻿tabla,regla,registros_afectados
+Cliente,R1 duplicados descartados,45
+Cliente,R5 DNI inválido -> NULL,32
+Cliente,email nulo (permitido),165
+Empleado,"salario_mensual nulo (permitido, S3)",4
+Pedido,R1 duplicados descartados,38
+Pedido,R2 id_cliente NULL -> 9999,1080
+Pedido,R3 fecha inválida -> fecha de carga,78
+Pedido,R4 monto <= 0 rechazado,18
+Detalle_Pedido,R6 huérfanos rechazados,52

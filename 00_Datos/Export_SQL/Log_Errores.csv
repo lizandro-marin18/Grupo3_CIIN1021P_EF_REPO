@@ -1,0 +1,71 @@
+﻿tabla,id_registro,motivo,valor
+Pedido,47,monto_total <= 0 (trigger trg_ValidarMontoPedido),-112.0
+Pedido,799,monto_total <= 0 (trigger trg_ValidarMontoPedido),-220.0
+Pedido,2417,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,3025,monto_total <= 0 (trigger trg_ValidarMontoPedido),-86.0
+Pedido,3789,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,4725,monto_total <= 0 (trigger trg_ValidarMontoPedido),-170.0
+Pedido,4843,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,4959,monto_total <= 0 (trigger trg_ValidarMontoPedido),-38.0
+Pedido,5039,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,5781,monto_total <= 0 (trigger trg_ValidarMontoPedido),-80.0
+Pedido,5835,monto_total <= 0 (trigger trg_ValidarMontoPedido),-72.0
+Pedido,6584,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,7956,monto_total <= 0 (trigger trg_ValidarMontoPedido),-71.0
+Pedido,9703,monto_total <= 0 (trigger trg_ValidarMontoPedido),-148.0
+Pedido,9715,monto_total <= 0 (trigger trg_ValidarMontoPedido),-108.0
+Pedido,11355,monto_total <= 0 (trigger trg_ValidarMontoPedido),0.0
+Pedido,11435,monto_total <= 0 (trigger trg_ValidarMontoPedido),-76.0
+Pedido,11725,monto_total <= 0 (trigger trg_ValidarMontoPedido),-84.0
+Detalle_Pedido,137,pedido padre rechazado (huérfano),30.0
+Detalle_Pedido,138,pedido padre rechazado (huérfano),54.0
+Detalle_Pedido,139,pedido padre rechazado (huérfano),28.0
+Detalle_Pedido,2371,pedido padre rechazado (huérfano),72.0
+Detalle_Pedido,2372,pedido padre rechazado (huérfano),88.0
+Detalle_Pedido,2373,pedido padre rechazado (huérfano),60.0
+Detalle_Pedido,7052,pedido padre rechazado (huérfano),44.0
+Detalle_Pedido,7053,pedido padre rechazado (huérfano),90.0
+Detalle_Pedido,7054,pedido padre rechazado (huérfano),28.0
+Detalle_Pedido,8829,pedido padre rechazado (huérfano),60.0
+Detalle_Pedido,8830,pedido padre rechazado (huérfano),26.0
+Detalle_Pedido,11056,pedido padre rechazado (huérfano),18.0
+Detalle_Pedido,11057,pedido padre rechazado (huérfano),32.0
+Detalle_Pedido,11058,pedido padre rechazado (huérfano),38.0
+Detalle_Pedido,11059,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,13839,pedido padre rechazado (huérfano),18.0
+Detalle_Pedido,13840,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,13841,pedido padre rechazado (huérfano),18.0
+Detalle_Pedido,13842,pedido padre rechazado (huérfano),20.0
+Detalle_Pedido,13843,pedido padre rechazado (huérfano),34.0
+Detalle_Pedido,13844,pedido padre rechazado (huérfano),44.0
+Detalle_Pedido,14162,pedido padre rechazado (huérfano),24.0
+Detalle_Pedido,14163,pedido padre rechazado (huérfano),10.0
+Detalle_Pedido,14164,pedido padre rechazado (huérfano),60.0
+Detalle_Pedido,14521,pedido padre rechazado (huérfano),38.0
+Detalle_Pedido,14748,pedido padre rechazado (huérfano),32.0
+Detalle_Pedido,14749,pedido padre rechazado (huérfano),38.0
+Detalle_Pedido,14750,pedido padre rechazado (huérfano),30.0
+Detalle_Pedido,16993,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,16994,pedido padre rechazado (huérfano),12.0
+Detalle_Pedido,16995,pedido padre rechazado (huérfano),32.0
+Detalle_Pedido,17144,pedido padre rechazado (huérfano),72.0
+Detalle_Pedido,19369,pedido padre rechazado (huérfano),28.0
+Detalle_Pedido,19370,pedido padre rechazado (huérfano),111.0
+Detalle_Pedido,19371,pedido padre rechazado (huérfano),56.0
+Detalle_Pedido,23509,pedido padre rechazado (huérfano),34.0
+Detalle_Pedido,23510,pedido padre rechazado (huérfano),25.0
+Detalle_Pedido,23511,pedido padre rechazado (huérfano),12.0
+Detalle_Pedido,28683,pedido padre rechazado (huérfano),84.0
+Detalle_Pedido,28684,pedido padre rechazado (huérfano),28.0
+Detalle_Pedido,28685,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,28716,pedido padre rechazado (huérfano),14.0
+Detalle_Pedido,28717,pedido padre rechazado (huérfano),22.0
+Detalle_Pedido,28718,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,28719,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,33575,pedido padre rechazado (huérfano),18.0
+Detalle_Pedido,33576,pedido padre rechazado (huérfano),36.0
+Detalle_Pedido,33577,pedido padre rechazado (huérfano),34.0
+Detalle_Pedido,33813,pedido padre rechazado (huérfano),76.0
+Detalle_Pedido,34664,pedido padre rechazado (huérfano),34.0
+Detalle_Pedido,34665,pedido padre rechazado (huérfano),22.0
+Detalle_Pedido,34666,pedido padre rechazado (huérfano),28.0

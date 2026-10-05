@@ -1,0 +1,41 @@
+﻿id_plato,nombre_plato,categoria,precio_base,costo_estimado
+1,Ceviche Clásico,Ceviches,28,9.21
+2,Ceviche Mixto,Ceviches,34,13.26
+3,Ceviche de Conchas Negras,Ceviches,42,14.78
+4,Ceviche de Pota,Ceviches,22,6.44
+5,Ceviche Carretillero,Ceviches,30,8.4
+6,Ceviche de Camarón,Ceviches,38,13.51
+7,Tiradito Nikkei,Ceviches,36,11.91
+8,Ceviche Vegetariano,Ceviches,24,8.92
+9,Arroz con Mariscos,Arroces,35,13.16
+10,Arroz Chaufa de Mariscos,Arroces,32,10.25
+11,Arroz con Pato Marino,Arroces,33,10.72
+12,Arroz Negro,Arroces,36,12.68
+13,Chaufa de Pescado,Arroces,28,10.47
+14,Jalea Mixta,Frituras,45,13.79
+15,Chicharrón de Pescado,Frituras,30,11.77
+16,Chicharrón de Calamar,Frituras,32,10.29
+17,Choritos a la Chalaca,Entradas,26,8.32
+18,Pulpo al Olivo,Entradas,38,15.61
+19,Causa Limeña,Entradas,18,7.3
+20,Papa a la Huancaína,Entradas,16,5.2
+21,Tequeños de Mariscos,Entradas,20,6.85
+22,Ensalada Marina,Entradas,22,6.8
+23,Leche de Tigre,Leches,18,5.41
+24,Leche de Tigre Especial,Leches,24,6.95
+25,Leche de Pantera,Leches,26,10.05
+26,Parihuela,Sopas,42,17.51
+27,Sopa Chilcano de Pescado,Sopas,25,8.92
+28,Sudado de Pescado,Sopas,34,10.42
+29,Pescado a lo Macho,Platos Calientes,44,15.29
+30,Filete a la Chorrillana,Platos Calientes,38,15.55
+31,Saltado de Mariscos,Platos Calientes,36,11.2
+32,Tacu Tacu con Mariscos,Platos Calientes,37,11.89
+33,Chicha Morada (jarra),Bebidas,14,4.76
+34,Limonada Frozen,Bebidas,10,2.86
+35,Cerveza Cusqueña,Bebidas,9,2.84
+36,Inca Kola 500ml,Bebidas,6,2.43
+37,Maracuyá Sour,Bebidas,18,6.67
+38,Suspiro Limeño,Postres,12,3.4
+39,Mazamorra Morada,Postres,8,2.73
+40,Helado de Lúcuma,Postres,10,3.45
